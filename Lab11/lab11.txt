@@ -1,0 +1,49 @@
+===================================================================================
+CS2110                                Lab #11                           Spring 2015
+===================================================================================
+
+This is not a timed lab, so feel free to collaborate with your neighbors, use
+the book, and ask the TAs for explanation if you need help. When you are done,
+please submit your assignment to T-Square to get credit! for participating.
+
+
+1) Simple assembly program
+
+Create two symbols/locations/labels A and B
+Note: These labels must be named "A" and "B"
+Initialize location A to 157 and B to 257
+Write code that does the following (note that your code must perform these computations)
+
+    Load A into R0
+    Load B into R1
+    Put A+B at Address x5001
+    Put A&B at Address x5002
+    Put -A at address x5003
+    Put 2 * A + 3 * B at address x5004
+
+Write your code in a file named simple.asm and submit it at the end of lab.
+
+
+2) Sumtorial
+
+Sumtorial is similar to factorial, except you are adding instead of multiplying.
+
+SUMTORIAL(0) is 0
+SUMTORIAL(1) is 0 + 1 is 1
+SUMTORIAL(2) is 0 + 1 + 2 is 3
+SUMTORIAL(3) is 0 + 1 + 2 + 3 is 6
+SUMTORIAL(4) is 0 + 1 + 2 + 3 + 4 is 10
+
+The parameter to sumtorial is stored at the symbol N
+and you are to store your answer at the symbol ANS
+
+Write your code in a file named sumtorial.asm and submit it at the end of lab.
+
+
+3) If you still have time:
+
+Write an assembly program that prints out "Hello world"
+You may not use the PUTS trap for this.
+You must print out every single character.
+
+Write your code in a file named helloworld.asm and submit it at the end of lab.
