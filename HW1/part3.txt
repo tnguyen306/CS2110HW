@@ -1,0 +1,21 @@
+1) What is the purpose of a splitter? Can It be used to join wires?
+The purpose of the splitter is to split multi-bit values into different bits so that the user
+can route those splitted bits into different directions. Example in the part2 of the homework,
+the splitter happens to actually split an incoming value of 3 into three outgoing values. 
+
+The splitter can be used to join wires together because the splitter is non-directional.
+It can spli multiple into singles and combine singles into multiple.
+
+2) why are tunnels useful?
+A tunnel is like a wire that is bind points together with out the wire being explicitly drawn,
+this make tunels when the user wants to connect points far apart and a network of wires would
+make the circuit more disorganized.In addition, tunnels can be used to connect multiple points
+togehter as long as the tunnels has the same label. If the label has a different label, it is 
+considered to belong to a different circuit.
+
+3) What are the output of your circuit when you give it an input of 010?
+The output would be 0, because the circuit requires both to be one (110) to be on
+
+Input of 100?
+The output would also be 1 because this input is linked to the OR function so as long as
+one input is green ( or 1) the output would turn on (or become green).

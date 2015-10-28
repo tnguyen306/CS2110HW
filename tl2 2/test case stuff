@@ -1,0 +1,3 @@
+I did really bad on this one. Here is some stuff on their test cases.
+
+Failed Test case - traverse(1,-1) 0 / 50 (Did not finish!) Failed Test case - traverse(1,2,3,4,5,6,7,8,9-1) 0 / 50 (Did not finish!) Failed Test case - traverse(5,5,5,5,4,5,10,-1) 0 / 50 (Did not finish!) Failed Test case - traverse(0x9,0x7,0x5,0x3,0x999,-1) 0 / 50 (Did not finish!) Failed Test case - traverse(0x83,0x97,0x42,0x12,0x33,0x117,0x20,0x87,0x46,-1) 0 / 50 (Did not finish!)
